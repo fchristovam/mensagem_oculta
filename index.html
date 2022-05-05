@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Passinho do Romano</title>
+    </head>
+
+    <body>
+        <header><h1>Passinho do Romano</h1></header>
+
+        <div id="formulario">
+        <form id="form">
+            <div id="message">
+                <label for="palavra">Digite uma palavra</label>
+                <br>
+                <input id="palavra" name="palavra" type="text" placeholder="Digitar">
+            </div>
+            <br> <br>
+            
+                <label>Escolha o tipo de decodificação</label>
+                <br>
+                <select id="selection">
+                    <option value="" check>Selecionar</option>
+                    <option value="Base64">Base 64</option>
+                    <option value="CifraCesar">Cifra de César</option>
+                </select>    
+            <br> <br>
+
+                <label for="cifraCesar" id="incremento">Adicione um incremento para a Cifra de César</label>
+                <br>
+                <input type="number" id="numeroIncremento"> 
+            <br>
+
+            <div id="entrada">
+                <label class="choose">Selecione uma opção</label>
+                <br> <br>
+                <input type="radio" id="cod" name="radio" value="codifica">
+                <label for="codifica">Codificar</label>
+                <input type="radio" id="decod" name="radio" value="decodifica">
+                <label for="decodifica">Decodificar</label>
+            </div>
+            <br> 
+
+            <button id="botao" onclick="executar()">Executar</button>
+            <br> 
+
+            <label for="result">Resultado</label>
+            <br>
+            <input id="resultado">
+
+        </div>
+        </form>
+
+        <script src="./index.js"></script>
+    </body>
+</html>

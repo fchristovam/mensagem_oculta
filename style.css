@@ -1,0 +1,22 @@
+body {
+    background-image: url('./roma.jpg');
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+#formulario {
+    display: block;
+    background-color: rgba(120, 105, 105, 0.758);
+    width: 330px;
+    height: 400px;
+    margin-left: 750px;
+    padding: 40px;
+    font-size: large;
+    border-radius: 20px 100px 50px 30px;
+    text-align: center;
+}
+#message {
+    font-size: 30px;
+}
