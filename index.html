@@ -15,8 +15,10 @@
         <form id="form">
             <div id="message">
                 <label for="palavra">Digite uma palavra</label>
+                <textarea name="texto" id="txt" rows="2"></textarea>
+               <!-- <label for="palavra">Digite uma palavra</label>
                 <br>
-                <input id="palavra" name="palavra" type="text" placeholder="Digitar">
+                <input id="palavra" name="palavra" type="text" placeholder="Digitar"> -->
             </div>
             <br> <br>
             
@@ -24,14 +26,15 @@
                 <br>
                 <select id="selection">
                     <option value="" check>Selecionar</option>
-                    <option value="Base64">Base 64</option>
-                    <option value="CifraCesar">Cifra de César</option>
+                    <option id='base' value="base">Base 64</option>
+                    <option id='cifra' value="cifraC">Cifra de César</option>
                 </select>    
             <br> <br>
-
-                <label for="cifraCesar" id="incremento">Adicione um incremento para a Cifra de César</label>
+                <div id="incremento">
+                <label for="cifraCesar" class="incremento">Adicione um incremento para a Cifra de César</label>
                 <br>
-                <input type="number" id="numeroIncremento"> 
+                <input type="number" class="incremento" id="increment"> 
+            </div>
             <br>
 
             <div id="entrada">

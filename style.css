@@ -12,11 +12,17 @@ body {
     width: 330px;
     height: 400px;
     margin-left: 750px;
-    padding: 40px;
+    padding: 30px;
     font-size: large;
     border-radius: 20px 100px 50px 30px;
     text-align: center;
 }
 #message {
     font-size: 30px;
+}
+#incremento {
+        display: none;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 100px;
 }
