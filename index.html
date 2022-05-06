@@ -16,9 +16,6 @@
             <div id="message">
                 <label for="palavra">Digite uma palavra</label>
                 <textarea name="texto" id="txt" rows="2"></textarea>
-               <!-- <label for="palavra">Digite uma palavra</label>
-                <br>
-                <input id="palavra" name="palavra" type="text" placeholder="Digitar"> -->
             </div>
             <br> <br>
             
@@ -27,13 +24,13 @@
                 <select id="selection">
                     <option value="" check>Selecionar</option>
                     <option id='base' value="base">Base 64</option>
-                    <option id='cifra' value="cifraC">Cifra de César</option>
+                    <option id='cifra' value="cifra">Cifra de César</option>
                 </select>    
             <br> <br>
                 <div id="incremento">
                 <label for="cifraCesar" class="incremento">Adicione um incremento para a Cifra de César</label>
                 <br>
-                <input type="number" class="incremento" id="increment"> 
+               <input id="increment"> 
             </div>
             <br>
 
@@ -47,7 +44,7 @@
             </div>
             <br> 
 
-            <button id="botao" onclick="executar()">Executar</button>
+            <button id="botao">Executar</button>
             <br> 
 
             <label for="result">Resultado</label>
